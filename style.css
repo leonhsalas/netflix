@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: black;
+}
+
+body{
+    background-image: url(desktop-wallpaper-grizzy-and-the-lemmings-world-tour.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img{
+    width: 16vw;
+    margin-left: 8vw;
+    margin-top: 2vh;
+}
+
+#img2{
+    width: 2vw;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+input::placeholder{
+    color: black;
+    width: 100%;
+    padding-left: 1.5vw;
+}
+
+input{
+    border: 0.4vh solid gray;
+    background: transparent;
+    background-image: url("search\ \(1\).png");
+    background-size: 0.7vw;
+    background-repeat: no-repeat;
+    background-position: 0.5vw;
+    padding-left: 1.5vw;
+    margin-left: 8vw;
+    margin-top: 2vh;
+    width: 22vw;
+}
+
+#h3-nav{
+    margin-left: 1vw;
+    margin-top: 2vh;   
+}
+
+#h3-navv{
+    margin-left: 8vw;
+    margin-top: 2vh;   
+}
+
+.subdiv{
+    display: flex;
+    margin-left: 8vw;
+    align-items: center;
+}
+
+h1{
+    font-size: 4vw;
+}
+
+#play{
+    width: 3vw;
+}
+
+#primer-subdiv{
+    margin-top: 10vw;
+}
+
+#sub{
+    margin-top: 1vw;
+}
+
+button{
+    height: 2vw;
+    width: 5vw;
+    background: transparent;
+}
+
+#primero.close{
+    background-color: transparent;
+}
+
+#segundo.open{
+    background-color: red;
+}
+
+#primero{
+    background-color: red;
+}
+
+#segundo{
+    background-color: transparent;
+}
+
