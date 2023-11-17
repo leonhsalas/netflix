@@ -1,6 +1,7 @@
 const primero = document.getElementById("primero");
 const segundo = document.getElementById("segundo");
 
+const e = 1
 
 primero.addEventListener("click", () => {
     primero.toggle("close")
