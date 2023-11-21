@@ -1,14 +1,24 @@
-const primero = document.getElementById("primero");
-const segundo = document.getElementById("segundo");
 
-const e = 1
 
-primero.addEventListener("click", () => {
-    primero.toggle("close")
-    segundo.toggle("open")
-})
 
-segundo.addEventListener("click", () => {
-    primero.remove("close")
-    segundo.remove("open")
-})
+const play = document.getElementById("primero");
+
+const mylist = document.getElementById("segundo");
+
+let bin = false;
+
+function red(){
+   if(bin == false){
+        bin = !bin;
+        play.toggle("transparent")
+        mylist.toggle("red")
+    }else{
+        bin = !bin;
+        play.remove("transparent")
+        mylist.remove("red")
+    }
+}
+
+function ope(){
+    
+}
