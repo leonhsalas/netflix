@@ -125,14 +125,6 @@ button{
     background-color: transparent;
 }
 
-#primero.transparent{
-    background-color: transparent;
-}
-
-#segundo.red{
-    background-color: red;
-}
-
 #serie{
     margin-left: 1vw;
 }
@@ -154,6 +146,12 @@ h1{
 #trailer{
     margin-left: 1vh;
     font-size: 2vw;
+}
+
+#vid{
+    display: none;
+    margin-top: -100vh;
+    margin-left: -50vh;
 }
 
 
